@@ -23,18 +23,18 @@ For educational purposes, the `get_next_line.c` `get_next_line_utils.c` and `get
 ### Instructions
 
 1.  **Clone the repository**:
-2. 
-    `git clone https://github.com/yourusername/hangman-game.git` 
-    
-3.  **Add your get_next_line files**: 
+```
+bash curl -L -o 42-gnl-hangman.zip https://github.com/N-Determine/42-gnl-hangman/archive/refs/heads/main.zip && unzip 42-gnl-hangman.zip && rm 42-gnl-hangman.zip
+```
+2.  **Add your get_next_line files**: 
 
 	Place your implementation of `get_next_line.c`, `get_next_line_utils.c` and `get_next_line.h` in the project directory.
     
-4.  **Compile the game**:
+3.  **Compile the game**:
 
     `cc -Wall -Wextra -Werror -o hangman *.c` 
    
-5.  **Run the game** using one of the modes described below.
+4.  **Run the game** using one of the modes described below.
 
 ## Usage
 
