@@ -24,7 +24,7 @@ For educational purposes, the `get_next_line.c` `get_next_line_utils.c` and `get
 
 1.  **Clone the repository**:
 ```
-bash curl -L -o 42-gnl-hangman.zip https://github.com/N-Determine/42-gnl-hangman/archive/refs/heads/main.zip && unzip 42-gnl-hangman.zip && rm 42-gnl-hangman.zip
+curl -L -o 42-gnl-hangman.zip https://github.com/N-Determine/42-gnl-hangman/archive/refs/heads/main.zip && unzip 42-gnl-hangman.zip && rm 42-gnl-hangman.zip
 ```
 2.  **Add your get_next_line files**: 
 
