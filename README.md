@@ -1,6 +1,8 @@
 
 # 42-GNL Hangman
 
+![Example Image](doc/example-gameplay.png)
+
 ## Description
 
 This is a simple implementation of the classic **Hangman** game in C, including the drawing part as the player guesses letters. The game is designed to be played in the terminal. The most interesting feature is that the game uses the `get_next_line` function, which is an exercise in the **Common Core** at **42 School**.
