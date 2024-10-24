@@ -14,7 +14,7 @@
 #include "hangman.h"
 
 int 	TRIES = 7;
-char	*DEFAULT_WORD_LIST = "Wordlists/bigger3.txt";
+char	*DEFAULT_WORD_LIST = "wordlists/bigger3.txt";
 
 int main(int ac, char **av)
 {
