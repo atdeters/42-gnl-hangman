@@ -31,8 +31,9 @@ curl -L -o 42-gnl-hangman.zip https://github.com/N-Determine/42-gnl-hangman/arch
 	Place your implementation of `get_next_line.c`, `get_next_line_utils.c` and `get_next_line.h` in the project directory.
     
 3.  **Compile the game**:
-
-    `cc -Wall -Wextra -Werror -o hangman *.c` 
+```
+c -Wall -Wextra -Werror -o hangman *.c`
+```
    
 4.  **Run the game** using one of the modes described below.
 
