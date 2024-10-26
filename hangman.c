@@ -6,7 +6,7 @@
 /*   By: adeters <adeters@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 20:56:51 by adeters           #+#    #+#             */
-/*   Updated: 2024/10/24 21:41:32 by adeters          ###   ########.fr       */
+/*   Updated: 2024/10/26 11:35:05 by adeters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,34 +69,16 @@ int main(int ac, char **av)
 		}
 		word = get_next_line(fd);
 		srand(time(NULL));
-		if (ac == 3 && strcmp(av[1], "-r") == 0)
-		{
-			int line = rand();
-			while (word && i < line % lines_in_dic)
-			{
-				free(word);
-				word = get_next_line(fd);
-				i++;
-			}
-		}
-		else if (ac == 3)
-		{
-			while (word && i < (atoi(av[1]) % lines_in_dic))
-			{
-				free(word);
-				word = get_next_line(fd);
-				i++;
-			}
-		}
+		int line;
+		if ((ac == 3 && strcmp(av[1], "-r") == 0) || ac == 1)
+			line = rand();
 		else
+			line = atoi(av[1]);
+		while (word && i < line % lines_in_dic)
 		{
-			int line = rand();
-			while (word && i < line % lines_in_dic)
-			{
 				free(word);
 				word = get_next_line(fd);
 				i++;
-			}
 		}
 		if (!word)
 		{
@@ -228,7 +210,6 @@ int main(int ac, char **av)
 		if (TRIES == 7)
 			print_hangman(fails);
 		print_insult(word);
-		//printf("the word was actually \"%s\". Wasn't that obvious..\n\n\n\n", word);
 		if (ac == 3 || ac == 1)
 			free(word);
 	}
