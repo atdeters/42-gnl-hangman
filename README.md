@@ -91,5 +91,5 @@ Creating games can be a fun and rewarding way to enhance your coding skills whil
 
 ## Credits
 
--   Game created by **[N-Determine](https://github.com/N-Determine)** as part of learning and contributing to the **42 School** Common Core program.
--  Special thanks to **[DajanPlackovic](https://github.com/DajanPlackovic)** for helping me find possible bugs and leaks in the program.
+-   Game created by **[Andreas Deters](https://github.com/atdeters)** as part of learning and contributing to the **42 School** Common Core program.
+-  Special thanks to **[Dajan Plackovic](https://github.com/DajanPlackovic)** for helping me find possible bugs and leaks in the program.
